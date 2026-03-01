@@ -1,0 +1,21 @@
+changelog:
+  categories:
+    - title: "✅ What Was Fixed?"
+      labels:
+        - "bug"
+        - "fix"
+        - "bugfix"
+    - title: "✨ What's New/Changed?"
+      labels:
+        - "enhancement"
+        - "feature"
+        - "change"
+        - "documentation"
+    - title: "🧭 What's ToDo"
+      labels:
+        - "todo"
+        - "backlog"
+        - "planned"
+  exclude:
+    labels:
+      - "skip-changelog"

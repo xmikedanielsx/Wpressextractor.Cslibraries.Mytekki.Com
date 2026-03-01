@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  <PackageId>wpressextractor.cslibraries.apps.mytekki.com</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Community</Authors>
+    <Description>Cross-platform encoder/decoder for WPress archives.</Description>
+    <PackageTags>wpress;archive;backup;extractor</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <RepositoryUrl>https://github.com/xmikedanielsx/Wpressextractor.Cslibraries.Mytekki.Com</RepositoryUrl>
+  <PackageProjectUrl>https://github.com/xmikedanielsx/Wpressextractor.Cslibraries.Mytekki.Com</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  <RootNamespace>MyTekki.WpressExtractor</RootNamespace>
+  <AssemblyName>MyTekki.WpressExtractor</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="WpressExtractor.Cli\**\*.cs" />
+    <Compile Remove="WpressExtractor.Tests\**\*.cs" />
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+</Project>
